@@ -4,15 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        double n1;
-        double n2 = 0;
+        double n1, n2, resultado = 0;
         float resto;
-        double resultado = 0;
         int escolha;
         String continuar;
 
         while (true) {
-
             System.out.println("-------Calculadora Interativa-------");
             System.out.println("\n1-Soma");
             System.out.println("2-Subtração");
